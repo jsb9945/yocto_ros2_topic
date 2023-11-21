@@ -17,6 +17,15 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
+#include <iomanip>
+#include <iostream>
+#include <sstream>
+
+#include <condition_variable>
+#include <thread>
+
+#include <vsomeip/vsomeip.hpp>
+
 
 using std::placeholders::_1;
 
